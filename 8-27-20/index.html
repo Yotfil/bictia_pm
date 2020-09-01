@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <form class="formContact" onsubmit="validarFormulario(event)">
+            <div class="contInput">
+                <label for="name">Nombre</label>
+                <input type="text" placeholder="Ej: Pepito Perez" id="name">
+                <small id="mensajeAlertaNombre" class="mensajeAlertaInputs"></small>
+            </div>
+            <div class="contInput">
+                <label for="">Apellido</label>
+                <input type="text">
+            </div>
+            <div class="contInput">
+                <label for="">Correo</label>
+                <input type="text">
+            </div>
+            <div class="contInput">
+                <label for="">Contraseña</label>
+                <input type="password">
+
+            </div>
+            <div class="contInput">
+                <label for="">Edad</label>
+                <input type="number">
+            </div>
+            <div class="contInput inputTyC">
+                <label for="inputTyC"> Acepta terminos y condiciones </label>
+                <input type="checkbox" id="inputTyC">
+            </div>
+            <small id="mensajeAlertaTyC" class="mensajeAlertaInputs"></small>
+            <input type="submit" value="Enviar" class="btnEnviar">
+        </form>
+        <script src="./sweetalert.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+
+</html>

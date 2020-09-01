@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.formContact {
+	width: 40%;
+	margin: auto;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+.contInput {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+.contInput label {
+	margin-bottom: 5px;
+	color: blue;
+}
+.contInput input {
+	border: none;
+	padding: 10px 15px;
+	background-color: rgb(255, 249, 214);
+	border-radius: 10px;
+}
+.contInput input:focus {
+	box-shadow: 0px 0px 20px rgb(73, 73, 73);
+}
+.btnEnviar {
+	margin-top: 40px;
+	align-self: center;
+	border: none;
+	padding: 15px 20px;
+	border-radius: 10px;
+	background-color: rgb(12, 112, 151);
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+}
+.btnEnviar:hover {
+	transform: scale(1.1);
+}
+.mensajeAlertaInputs {
+	color: red;
+	margin-top: 5px;
+}
+.inputTyC {
+	flex-direction: row;
+	justify-content: space-around;
+}
+.inputTyC > label {
+	order: 2;
+}
+.bgcAlert {
+	background-color: rgb(255, 197, 197) !important;
+}
