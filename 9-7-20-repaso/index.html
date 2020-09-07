@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row bg-info py-3">
+                <h1 class="text-center w-100">Menu</h1>
+                <small class="text-center w-100 text-white ">col-12</small>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-12 col-md-8 mr-md-3 bg-success w-50 h-50 py-5">
+                    <h2>Main</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum volutpat pulvinar. Mauris
+                        tincidunt ante mauris, quis sodales urna porttitor at. Integer consectetur sem quis nisl
+                        volutpat vehicula. In lacinia eget sem in mattis. Suspendisse orci turpis, ornare quis mauris a,
+                        malesuada semper nisi. Morbi ornare quis ipsum id commodo. Quisque dapibus, sapien eget
+                        tristique aliquam, sapien augue eleifend mi, sit amet lacinia turpis sem quis nunc. Proin
+                        aliquet ultrices risus, sed rutrum libero tristique eget. Maecenas accumsan quis nunc id
+                        dignissim. Donec pharetra non nisi vulputate convallis. </p>
+                    <small class="d-none d-md-block">col-8</small>
+                    <small class="d-md-none">col-12</small>
+                </div>
+                <div class="col-12 col-md bg-danger w-50 h-50 py-3 align-self-center">
+                    <h2>Aside</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum volutpat pulvinar. Mauris
+                    </p>
+                    <small class="d-none d-md-block">col-4</small>
+                    <small class="d-md-none">col-12</small>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row py-5 justify-content-between">
+                <div class="col-12 col-md-3 bg-warning py-3">
+                    <h1>widget1</h1>
+                    <small class="d-none d-md-block">col-3</small>
+                    <small class="d-md-none">col-12</small>
+                </div>
+                <div class="col-12 col-md-3 bg-warning py-3">
+                    <h1>widget2</h1>
+                    <small class="d-none d-md-block">col-3</small>
+                    <small class="d-md-none">col-12</small>
+                </div>
+                <div class="col-12 col-md-3 bg-warning  py-3">
+                    <h1>widget3</h1>
+                    <small class="d-none d-md-block">col-3</small>
+                    <small class="d-md-none">col-12</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row padreDados justify-content-between">
+                <!-- CARA 1 -->
+                <div class="caraDado bg-primary d-flex justify-content-center align-items-center">
+                    <div class="punto"></div>
+                </div>
+                <!-- CARA 2 -->
+                <div class="caraDado bg-primary d-flex justify-content-between">
+                    <div class="punto align-self-end"></div>
+                    <div class="punto"></div>
+                </div>
+                <!-- CARA 3 -->
+                <div class="caraDado bg-primary d-flex justify-content-between">
+                    <div class="punto align-self-end"></div>
+                    <div class="punto align-self-center"></div>
+                    <div class="punto"></div>
+                </div>
+            </div>
+            <!-- CARA 4 -->
+            <div class="row padreDados justify-content-between my-5">
+                <div class="caraDado bg-primary d-flex flex-column justify-content-between">
+                    <div class="d-flex justify-content-between">
+                        <div class="punto"></div>
+                        <div class="punto"></div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="punto"></div>
+                        <div class="punto"></div>
+                    </div>
+                </div>
+                <div class="caraDado bg-primary d-flex justify-content-between flex-column">
+                    <div class="d-flex justify-content-between">
+                        <div class="punto"></div>
+                        <div class="punto"></div>
+                    </div>
+                    <div class="punto align-self-center"></div>
+                    <div class="d-flex justify-content-between">
+                        <div class="punto"></div>
+                        <div class="punto"></div>
+                    </div>
+                </div>
+                <div class="caraDado bg-primary caraPropia d-flex flex-column justify-content-between">
+                    <div class="d-flex justify-content-between">
+                        <div class="punto"></div>
+                        <div class="punto"></div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="punto"></div>
+                        <div class="punto"></div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="punto"></div>
+                        <div class="punto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel -->
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-between">
+                            <div class="col-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-between">
+                            <div class="col-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-between">
+                            <div class="col-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card 3</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="container-fluid">
+            <div class="row bg-primary py-3">
+                <h1 class="text-center w-100">Footer</h1>
+                <small class="text-center w-100 text-white ">col-12</small>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+    </body>
+
+</html>
